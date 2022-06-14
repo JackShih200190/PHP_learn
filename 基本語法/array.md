@@ -42,3 +42,27 @@
 </html>
 
 ```
+
+
+```php
+<html>
+<head> 
+    <title>PHP var 測試</title>
+</head>
+<body>
+    <?php
+        $array["a"] = 1;
+        $array[] = 2;
+        $array["b"] = 3;
+        $array[] = 4;
+
+        echo "1.\t";
+        print_r($array);
+    ?>
+</body>
+</html>
+```
+
+output：
+
+![image](https://user-images.githubusercontent.com/55253641/173551770-9642bfca-083c-4151-accc-c53461779224.png)
